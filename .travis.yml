@@ -9,6 +9,6 @@ install:
 # command to run tests
 script:
 # Tests
-  - python3 raiden/test.py
+
 # Code Style
   - pycodestyle raiden/*
