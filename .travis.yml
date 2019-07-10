@@ -1,0 +1,14 @@
+dist: bionic
+language: python
+python:
+  - "3.6"
+  - "3.6-dev"  # 3.6 development branch
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+# Tests
+  - python3 raiden/test.py
+# Code Style
+  - pycodestyle raiden/*
